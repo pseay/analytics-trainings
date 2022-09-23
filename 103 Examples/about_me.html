@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			background: black;
+			text-align: center;
+		}
+		.card {
+			width: 50%;
+			margin: auto;
+			margin-top: 5em;
+			padding: 20px;
+			background: linear-gradient(70deg, purple, orange);
+			border-radius: 50px;
+			border: 3px solid white;
+			border-bottom-width: 10px;
+			transition: 1s;
+		}
+		.card:hover {
+			border-radius: 0;
+			background: linear-gradient(-20deg, purple, orange);
+			border-bottom-width: 3px;
+		}
+		.card * {
+			color: white;
+		}
+		ul {
+			width: 50%;
+			margin: auto;
+		}
+		li {
+			text-align: left;
+		}
+		hr {
+			border: none;
+			border-color: black;
+			width: 80%;
+			height: 3px;
+			background: linear-gradient(-20deg, rgb(100, 0, 100), rgb(171, 111, 0));
+			transition: 1s;
+			border-bottom: 2px solid black;
+			border-radius: 5px;
+		}
+		.card:hover hr {
+			background: linear-gradient(70deg, rgb(100, 0, 100), rgb(171, 111, 0));
+			width: 100%;
+			border: 1px solid black;
+			border-radius: 0px;
+		}
+	</style>
+</head>
+<body>
+	<div class="card">
+		<h1>Preston Seay</h1>
+		<h3>AKA Senseay Preston</h3>
+		<hr>
+		<div class="paragraph-container">
+			<p>About me:</p>
+			<ul>
+				<li>I love to program 💻</li>
+				<li>Co-Founder of //coder club 😏</li>
+				<li>I've been programming since 2nd grade 🏫</li>
+				<li>Math's cool 🧮</li>
+				<li>I run a lot for XC & T&F 🏃</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
