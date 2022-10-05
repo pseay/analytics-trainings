@@ -1,0 +1,15 @@
+.container {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap-reverse;
+	width: 50%;
+	gap: 30%;
+}
+
+.dice-side {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid black;
+}
